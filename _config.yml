@@ -14,20 +14,21 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Site Settingss
+# Site Settings
 locale: "ko-KR"
-title: "DAAE"S blog"
+title: "LovAe"
 title_separator: "-"
-subtitle: "Version 1.0"
-name: "DongDong"
+subtitle: # site tagline that appears below site title in masthead
+name: "DAAE'S_Blog"
 description: "record my journey."
-url: "https://Daae-Kim.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://Daae-Kim/github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "Daae-Kim/Daae-Kim.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+logo: "/assets/images/ninja.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: "LovAe" # overrides the website title displayed in the masthead, use " " for no title
+serch: true
+breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -103,15 +104,15 @@ analytics:
 
 # Site Author
 author:
-  name: "Daae-Kim"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Hi there."
-  location: "Republic of Korea"
-  email: "wlsemrdl1212@naver.com"
+  name: "dongE"
+  avatar: "/assets/images/doggy.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "🦴⚽︎"
+  location: "Korea"
+  email:
   links:
-    - label: "Github"
+    - label: Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "https://github.com/Daae-Kim"
+      #url: "Daae-Kim"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -123,10 +124,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/Daae-Kim"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/aedaaeda_"
 
 # Site Footer
 footer:
@@ -277,7 +278,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+      show_date: true
 
